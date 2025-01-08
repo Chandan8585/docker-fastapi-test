@@ -12,7 +12,11 @@ async def index():
     """
     Index route for our application
     """
-    return {"message": "Hello from FastAPI ;)"}
+    return {"message": "Hello from Chandan ;)"}
+
+# @app.get("/newuser")
+# def index():
+#     return {"message": "Hello from FastAPI ;)"}
 
 
 @app.post("/users", response_model=BaseResponse)
